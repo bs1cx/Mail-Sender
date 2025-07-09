@@ -28,9 +28,9 @@ def send_email(to, name, attachments):
             msg.attach(part)
     
     server.send_message(msg)
-
-
+```
 ##📦 Kurulum
+
 Gereksinimler:
 
 bash
@@ -47,9 +47,23 @@ Eğitim Kurumları: Öğrencilere toplu duyuru
 
 İK Departmanları: Adaylara otomatik yanıt
 
-⚠️ Önemli Uyarılar
+##⚠️ Önemli Uyarılar
 Gmail kullanırken App Password oluşturun
 
 Dakikada 50'den fazla mail göndermeyin (Gmail limiti)
 
 Spam politikalarına dikkat edin
+
+## 🔗 Desteklenen Platformlar
+- Gmail
+- Outlook (SMTP ayarları değiştirilerek)
+- Yandex Mail
+
+## 🐞 Karşılaşılabilecek Sorunlar
+- **Hata:** "SMTP Authentication Error"  
+- **Çözüm:** Gmail'de "Daha az güvenli uygulama erişimi"ni açın
+
+  ## ⚡ Performans İpuçları
+- Alıcı listesini 50'şer kişilik gruplara bölün
+- Büyük dosyaları ZIP yaparak gönderin
+
