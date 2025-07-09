@@ -28,7 +28,7 @@ def send_email(to, name, attachments):
     
     server.send_message(msg)
 ```
-##📦 Kurulum
+## 📦 Kurulum
 
 Gereksinimler:
 
@@ -39,14 +39,14 @@ pip install pandas tkinter
 bash
 python email_bot.py
 
-##🎯 Kullanım Senaryoları
+## 🎯 Kullanım Senaryoları
 Pazarlama Ekipleri: Müşterilere kampanya duyuruları
 
 Eğitim Kurumları: Öğrencilere toplu duyuru
 
 İK Departmanları: Adaylara otomatik yanıt
 
-##⚠️ Önemli Uyarılar
+## ⚠️ Önemli Uyarılar
 Gmail kullanırken App Password oluşturun
 
 Dakikada 50'den fazla mail göndermeyin (Gmail limiti)
