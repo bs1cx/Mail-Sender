@@ -3,7 +3,6 @@
 **Güvenli Toplu E-posta Gönderim Sistemi**  
 Python ile geliştirilen bu GUI uygulaması, SSL şifrelemesiyle toplu ve kişiselleştirilmiş e-posta gönderimi yapar.
 
-![Email Bot GUI](https://i.imgur.com/YOUR_SCREENSHOT_LINK_HERE.png)
 
 ## 🔥 Öne Çıkan Özellikler
 - **Güvenli Gönderim:** SMTP SSL (465 port) ile şifreli iletişim
