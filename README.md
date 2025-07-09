@@ -62,7 +62,7 @@ Spam politikalarına dikkat edin
 - **Hata:** "SMTP Authentication Error"  
 - **Çözüm:** Gmail'de "Daha az güvenli uygulama erişimi"ni açın
 
-  ## ⚡ Performans İpuçları
+## ⚡ Performans İpuçları
 - Alıcı listesini 50'şer kişilik gruplara bölün
 - Büyük dosyaları ZIP yaparak gönderin
 
